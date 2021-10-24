@@ -1,9 +1,6 @@
 package assignment2.Database;
 
 import assignment2.Player;
-import assignment2.Player;
-import assignment2.Question;
-import assignment2.Question;
 import assignment2.Question;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;

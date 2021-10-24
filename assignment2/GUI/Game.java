@@ -136,6 +136,7 @@ public class Game extends javax.swing.JFrame {
                 jLabel3.setOpaque(true);
                 jLabel3.setText("<html>"+"Congratulations, you've won $1,000,000"+"</html>");
                 jButton11.setVisible(true);
+                questionNumber=1;
            
     }
     
@@ -156,6 +157,7 @@ public class Game extends javax.swing.JFrame {
             jButton10.setVisible(false);
             jLabel3.setText("<html>"+"Incorrect, the answer is:\n "+AnsLetter+") "+Answer+"</html>");
             jButton11.setVisible(true);
+            questionNumber=1;
             int score = Score[i];
             
             Player a = new Player();
